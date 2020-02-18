@@ -1,0 +1,17 @@
+server:
+  port: 7003
+eureka:
+  #server:
+#    enable-self-preservation: false      理论上只有把保护模式设置为false才可以对于无用服务的清理
+  # eviction-interval-timer-in-ms: 1000       #设置清理的间隔时间（默认是60秒）单位是毫秒,该配置不建议去配置
+  client:
+    service-url:
+      defaultZone: http://root:root@localhost:7001/eureka/, http://root:root@localhost:7002/eureka/
+    #      注册中心允许配置集群，服务之间互相抓取，单机的话就用不上
+    fetch-registry: false
+    #    是否把当前的项目添加到注册中心之中，因为本身就是注册中心，所以信息不用交给自己去管理
+    register-with-eureka: false
+#    启动安全机制
+spring:
+  application:
+    name: microcloud-eureka
