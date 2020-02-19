@@ -27,6 +27,8 @@
     <module>springcloud-consumer-hystrix-dashboard-9003</module>
     <module>springcloud-provider-company-hystrix-8004</module>
     <module>springcloud-consumer-hystrix-turbine-9004</module>
+    <module>springcloud-zuul-gateway</module>
+    <module>springcloud-upload</module>
   </modules>
 
 

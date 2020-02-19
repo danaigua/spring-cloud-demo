@@ -28,6 +28,10 @@
     <file url="file://$PROJECT_DIR$/springcloud-provider-hystrix-8003/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-provider-hystrix-8003/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-upload/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zuul-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zuul-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
   </component>
 </project>
