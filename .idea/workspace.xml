@@ -1,20 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ba30f80-2400-4fae-9106-d23b06f22c21" name="Default Changelist" comment="" />
+    <list default="true" id="0ba30f80-2400-4fae-9106-d23b06f22c21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/src/main/java/com/hengyue/entity/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-9002/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-9002/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-9002/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-9002/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-9002/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-9002/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-9002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-9002/src/main/java/com/commons/config/MyLoadBalanceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-9002/src/main/java/com/hengyue/SpringcloudConsumer9001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-9002/src/main/java/com/hengyue/config/RestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-9002/src/main/java/com/hengyue/controller/ConsumerDeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-9002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-9002/src/test/java/com/hengyue/SpringcloudConsumer8002ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard-9003/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard-9003/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard-9003/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard-9003/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard-9003/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard-9003/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard-9003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard-9003/src/main/java/com/commons/config/MyLoadBalanceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard-9003/src/main/java/com/hengyue/SpringcloudConsumer9001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard-9003/src/main/java/com/hengyue/config/RestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard-9003/src/main/java/com/hengyue/controller/ConsumerDeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard-9003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard-9003/src/test/java/com/hengyue/SpringcloudConsumer8002ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine-9004/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine-9004/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine-9004/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine-9004/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine-9004/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine-9004/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine-9004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine-9004/src/main/java/com/commons/config/MyLoadBalanceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine-9004/src/main/java/com/hengyue/SpringcloudConsumer9001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine-9004/src/main/java/com/hengyue/config/RestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine-9004/src/main/java/com/hengyue/controller/ConsumerDeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine-9004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine-9004/src/test/java/com/hengyue/SpringcloudConsumer8002ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-microcloud-service/src/main/java/com/hengyue/config/FeignClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-microcloud-service/src/main/java/com/hengyue/service/DeptClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-company-hystrix-8004/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-company-hystrix-8004/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-company-hystrix-8004/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-company-hystrix-8004/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-company-hystrix-8004/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-company-hystrix-8004/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-company-hystrix-8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-company-hystrix-8004/src/main/java/com/hengyue/SpringcloudProvider8001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-company-hystrix-8004/src/main/java/com/hengyue/controller/CompanyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-company-hystrix-8004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-company-hystrix-8004/src/test/java/com/hengyue/SpringcloudProvider8001ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-company-hystrix-8004/src/test/java/com/hengyue/testDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/src/main/java/com/hengyue/SpringcloudProvider8001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/src/main/java/com/hengyue/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/src/main/java/com/hengyue/dao/IDeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/src/main/java/com/hengyue/service/IDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/src/main/java/com/hengyue/service/fallback/IDeptFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/src/main/java/com/hengyue/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/src/test/java/com/hengyue/SpringcloudProvider8001ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-hystrix-8003/src/test/java/com/hengyue/testDeptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-ribbon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-ribbon/springcloud-consumer-ribbon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-ribbon/springcloud-consumer-ribbon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-security/src/main/java/com/hengyue/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-security/src/main/java/com/hengyue/config/WebSecurityConfig.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XyDg4fnE9PAmSX0j23TVN7aTFg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -25,7 +122,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringcloudConsumerFeign9003Application">
+  <component name="RunManager" selected="Spring Boot.SpringcloudProvider8001Application (1)">
     <configuration name="ApplicaitonMainClass" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud-ribbon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hengyue.ApplicaitonMainClass" />
@@ -54,6 +151,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringcloudMicrocloudServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-microcloud-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hengyue.SpringcloudMicrocloudServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudMicrocloudServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-microcloud-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hengyue.springcloudmicrocloudservice.SpringcloudMicrocloudServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudProvider8001Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-provider-hystrix-8003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hengyue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hengyue.SpringcloudProvider8001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringcloudProvider8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud-provider-8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hengyue.SpringcloudProvider8001Application" />
@@ -61,6 +185,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringcloudProvider8001Application (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -84,7 +213,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582009548309</updated>
-      <workItem from="1582009551829" duration="4841000" />
+      <workItem from="1582009551829" duration="13032000" />
+      <workItem from="1582080632128" duration="3792000" />
     </task>
     <servers />
   </component>
@@ -92,29 +222,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1582017679585">
+    <state x="801" y="265" width="544" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1582083731436">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582017679585" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1582017679585">
+    <state x="801" y="265" width="544" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1582083731436" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1582044197176">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582017679585" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1582017679584">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582044197176" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1582044197174">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582017679584" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1582017679585">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582044197174" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1582044197172">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582017679585" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582044197172" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1582044197175">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582044197175" />
+    <state x="526" y="210" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1582033849883">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="526" y="210" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582033849883" />
     <state x="323" y="70" key="SettingsEditor" timestamp="1582012882656">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="323" y="70" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1582012882656" />
-    <state x="302" y="250" width="1372" height="605" key="new project wizard" timestamp="1582017679073">
+    <state x="302" y="250" width="1372" height="605" key="new project wizard" timestamp="1582022663708">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="302" y="250" width="1372" height="605" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1582017679073" />
+    <state x="302" y="250" width="1372" height="605" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1582022663708" />
+    <state x="657" y="198" width="672" height="676" key="search.everywhere.popup" timestamp="1582023137345">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="657" y="198" width="672" height="676" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582023137345" />
   </component>
 </project>

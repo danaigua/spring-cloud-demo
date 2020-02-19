@@ -6,15 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-provider-company-hystrix-8004" />
+        <module name="springcloud-consumer-hystrix-9002" />
+        <module name="springcloud-security" />
         <module name="springcloud-consumer-feign-9003" />
-        <module name="springcloud-consumer-9001" />
-        <module name="springcloud-api" />
-        <module name="springcloud-eureka-7002" />
         <module name="springcloud-provider-8002" />
         <module name="springcloud-provider-8001" />
-        <module name="springcloud-security" />
-        <module name="springcloud-eureka-7003" />
+        <module name="springcloud-microcloud-service" />
+        <module name="springcloud-provider-hystrix-8003" />
+        <module name="springcloud-consumer-9001" />
+        <module name="springcloud-eureka-7002" />
         <module name="springcloud-eureka-7001" />
+        <module name="springcloud-consumer-hystrix-turbine-9004" />
+        <module name="springcloud-api" />
+        <module name="springcloud-eureka-7003" />
+        <module name="springcloud-consumer-hystrix-dashboard-9003" />
         <module name="springcloud-consumer-ribbon" />
       </profile>
     </annotationProcessing>
@@ -22,5 +28,10 @@
       <module name="springcloud-consumer-ribbon" target="1.7" />
       <module name="springcloud-ribbon" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-microcloud-service" options="" />
+    </option>
   </component>
 </project>

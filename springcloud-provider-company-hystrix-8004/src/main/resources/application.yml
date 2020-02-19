@@ -1,0 +1,19 @@
+server:
+  port: 8004
+eureka:
+  instance:
+    instance-id: dept-8001.com      #在信息列表时显示主机名称
+    prefer-ip-address: true         #访问路径变为IP地址
+#    lease-expiration-duration-in-seconds: 5  #设置心跳间隔周期（默认是90秒）大部分情况下不需要修改
+#    lease-renewal-interval-in-seconds: 2    #设置心跳的时间间隔（默认是30秒）大部分情况下不需要修改
+  client:
+    service-url:
+      defaultZone: http://root:root@localhost:7001/eureka/  # , http://root:root@localhost:7002/eureka/ , http://root:root@localhost:7003/eureka/  #互相注册实现HA机制
+info:
+  app.name: hy-microcloud
+  company.name: www.hengyue.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+spring:
+  application:
+    name: mictocloud-provider-dept-company
